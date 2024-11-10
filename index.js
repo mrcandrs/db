@@ -70,9 +70,6 @@ const { router: barangayRouter, setConnectionBarangay } = require('./types/baran
 setConnectionBarangay(connection);
 app.use('/barangay', barangayRouter);
 
-const { router: photoRouter, setConnectionPhoto } = require('./types/photo');
-setConnectionPhoto(connection);
-app.use('/photo', photoRouter);
 
 const { router: messagingRouter, setConnectionMessaging } = require('./types/messaging');
 setConnectionMessaging(connection);
