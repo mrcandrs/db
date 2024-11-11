@@ -15,7 +15,7 @@ const connection = mysql.createConnection({
   port: '50411',
   user: 'root',
   password: 'fQdGuKFpybUtosfLPAESPgwlheQdAdMK',
-  database: 'rescuelink'
+  database: 'railway'
 });
 
 connection.connect((err) => {
