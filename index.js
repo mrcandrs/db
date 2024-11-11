@@ -11,11 +11,11 @@ app.use(cors());
 
 
 const connection = mysql.createConnection({
-  host: 'rescuelink1.c9cc2802gn0o.ap-southeast-1.rds.amazonaws.com',
-  port: '3306',
-  user: 'admin',
-  password: 'rescuelink',
-  database: 'rescuelink1'
+  host: 'autorack.proxy.rlwy.net',
+  port: '50411',
+  user: 'root',
+  password: 'fQdGuKFpybUtosfLPAESPgwlheQdAdMK',
+  database: 'rescuelink'
 });
 
 connection.connect((err) => {
